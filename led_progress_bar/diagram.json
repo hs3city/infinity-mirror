@@ -1,0 +1,24 @@
+{
+    "version": 1,
+    "author": "Piotr Gaczkowski",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "board-esp32-c3-devkitm-1", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+      {
+        "type": "wokwi-neopixel-canvas",
+        "id": "neopixels",
+        "top": -270.6,
+        "left": 199.4,
+        "rotate": 90,
+        "attrs": { "rows": "18", "cols": "1", "pixelate": "circle", "matrixBrightness": "3.5" }
+      }
+    ],
+    "connections": [
+      [ "esp:TX", "$serialMonitor:RX", "", [] ],
+      [ "esp:RX", "$serialMonitor:TX", "", [] ],
+      [ "esp:2", "neopixels:DIN", "green", [] ],
+      [ "esp:GND.1", "neopixels:VSS", "black", [] ],
+      [ "esp:5V.1", "neopixels:VDD", "red", [] ]
+      ],
+    "dependencies": {}
+  }
