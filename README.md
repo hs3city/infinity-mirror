@@ -11,3 +11,7 @@ Files .3dm format were prepared in Rhinoceros 6.
 The original Infinity Mirror - https://learn.adafruit.com/infinity-mirror-coaster/acrylic-setup
 
 3D model of QT-PY - https://github.com/adafruit/Adafruit_CAD_Parts
+
+## Preview
+
+![Preview](./infinity-mirror-hexagonal/hex-prototype.gif)
