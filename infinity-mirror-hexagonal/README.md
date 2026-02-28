@@ -13,6 +13,11 @@ This Infinity Mirror consists of:
 
 Firmware example for this design, with [Wokwi](https://wokwi.com/) project, can be found [here](https://github.com/hs3city/infinity-mirror/blob/main/led_progress_bar/diagram.json).
 
+This model has 2 versions:
+
+- model-tighter - parts are locked very tightly together
+- model-looser - has smaller walls and more spacing between elements
+
 ## 3D model preview
 
 ![Preview](./infinity-mirror-preview.gif)
